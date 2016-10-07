@@ -1,0 +1,23 @@
+
+FileVersion:        3
+
+ResolutionOfTime:   msec
+
+Experiment:         Configural processing
+
+BackgroundColor:    0 0 0
+TextColor:          255 255 255
+TimeCourseColor:    255 255 255
+TimeCourseThick:    4
+ReferenceFuncColor: 0 0 80
+ReferenceFuncThick: 3
+
+ParametricWeights:  1
+
+NrOfConditions:     1
+
+Configuration
+2
+    8323    10823  1
+   18397    20897  1
+Color: 194 232 240

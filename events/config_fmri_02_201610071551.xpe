@@ -1,0 +1,12 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Fri Oct 07 2016 15:51:50
+#sha1: e901c6
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4513,Picture,loaded,./img\configuration_1.jpg
+4529,Picture,loaded,./img\configuration_2.jpg
+4544,Picture,loaded,./img\configuration_3.jpg
+4559,Picture,loaded,./img\configuration_4.jpg
+4576,Picture,loaded,./img\configuration_5.jpg

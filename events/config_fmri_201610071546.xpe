@@ -1,0 +1,11 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Fri Oct 07 2016 15:46:27
+#sha1: a1ad08
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4820,stderr,received,'Traceback (most recent call last):'
+4820,stderr,received,'  File "C:/Users/Carmine Gnolo/Desktop/Code/cp-stim-pro/config_fmri.py", line 27, in <module>'
+4820,stderr,received,'    protocol.add_condition()'
+4820,stderr,received,'TypeError: add_condition() takes exactly 2 arguments (1 given)'
