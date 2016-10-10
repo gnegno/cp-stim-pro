@@ -1,0 +1,31 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpd-file, coding: cp1252
+#date: Mon Oct 10 2016 16:30:43
+#--EXPERIMENT INFO
+#e mainfile: blog_example
+#e sha1: 775bc4
+#e modules: 
+#e Experiment: Flanker Task
+#e no between subject factors
+#e Block 0: 1
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: correctresponse = [109, 120]
+#e                    trialtype = [congruent, incongruent]
+#e                    
+#e Block 1: 2
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: correctresponse = [109, 120]
+#e                    trialtype = [congruent, incongruent]
+#e                    
+#--SUBJECT INFO
+#s id: 7
+subject_id,block,correctresp,response,trial,RT,accuracy,trialtype
+7,1,109,None,2,None,0,incongruent
+7,1,120,None,0,None,0,congruent
+7,1,120,None,3,None,0,incongruent
+7,1,109,None,1,None,0,congruent
+7,2,109,None,1,None,0,congruent
+7,2,120,None,0,None,0,congruent
+7,2,120,None,3,None,0,incongruent
+7,2,109,None,2,None,0,incongruent

@@ -1,0 +1,84 @@
+from expyriment import control, design, io, misc, stimuli
+
+n_trials_block = 4
+n_blocks = 2
+duration = 2000
+flanker_stimuli = ["<<<<<", ">>>>>", "<<><<", ">><>>"]
+instructions = " Those are the instructions. "
+
+control.set_develop_mode(True)
+
+exp = design.Experiment(name="Flanker Task")
+control.initialize(exp)
+
+for block in range(n_blocks):
+    temp_block = design.Block(name = str(block+1))
+
+    for trial in range(n_trials_block):
+
+        curr_stim = flanker_stimuli[trial]
+        temp_stim = stimuli.TextLine(text=curr_stim)
+        temp_trial = design.Trial()
+        temp_trial.add_stimulus(temp_stim)
+
+        if flanker_stimuli[trial].count(curr_stim[0]) == len(curr_stim):
+            trialtype = 'congruent'
+        else:
+            trialtype = 'incongruent'
+
+        if curr_stim[2] == '<':
+            correctresponse = 120
+        elif curr_stim[2] == '>':
+            correctresponse = 109
+
+        temp_trial.set_factor("trialtype", trialtype)
+        temp_trial.set_factor("correctresponse", correctresponse)
+
+        temp_block.add_trial(temp_trial)
+
+    temp_block.shuffle_trials()
+    print temp_block
+    exp.add_block(temp_block)
+
+exp.data_variable_names = ["block", "correctresp", "response", "trial", "RT", "accuracy", "trialtype"]
+
+fixation_cross = stimuli.FixCross()
+fixation_cross.preload()
+
+control.start(skip_ready_screen=True)
+stimuli.TextScreen("Flanker task", instructions).present()
+exp.keyboard.wait(misc.constants.K_SPACE)
+
+for block in exp.blocks:
+    for trial in block.trials:
+        trial.stimuli[0].preload()
+        fixation_cross.present()
+        exp.clock.wait(duration)
+        trial.stimuli[0].present()
+
+        exp.clock.reset_stopwatch()
+
+        #Collect response and response time
+        key, rt = exp.keyboard.wait(keys = [misc.constants.K_x, misc.constants.K_m], duration = duration)
+        exp.clock.wait(duration - exp.clock.stopwatch_time)
+
+        #Check response
+        if key == trial.get_factor('correctresponse'):
+            acc = 1
+        else:
+            acc = 0
+
+        exp.data.add([block.name, trial.get_factor('correctresponse'), key, trial.id, rt, acc, trial.get_factor("trialtype")])
+
+        stimuli.TextScreen("Short break",  "That was block: " + block.name + ". \n Next block will soon start",).present()
+
+        exp.clock.wait(3000)
+    exp.clock.wait(3000)
+
+control.end(goodbye_text = "Thank you for your contribution!", goodbye_delay=2000)
+
+
+
+
+
+

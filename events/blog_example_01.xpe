@@ -1,0 +1,46 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 15:44:27
+#sha1: 2a9e7f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+698,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctrest,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,trialtype
+#design: 0,0,0,0,incongruent
+#design: 1,1,0,0,incongruent
+#design: 2,2,0,0,incongruent
+#design: 3,3,0,0,incongruent
+#design: 4,4,0,0,incongruent
+#design: 5,5,0,0,incongruent
+698,design,logged,
+698,Experiment,started
+712,Stimulus,presented,25
+2281,Keyboard,received,32,wait
+2285,Stimulus,presented,24
+4286,Stimulus,presented,3
+6287,Keyboard,received,None,wait
+6301,Stimulus,presented,26
+12303,Stimulus,presented,24
+14306,Stimulus,presented,7
+16306,Keyboard,received,None,wait
+16319,Stimulus,presented,27
+22322,Stimulus,presented,24
+24325,Stimulus,presented,11
+26327,Keyboard,received,None,wait
+26340,Stimulus,presented,28
+32344,Stimulus,presented,24
+34347,Stimulus,presented,15
+36348,Keyboard,received,None,wait
+36361,Stimulus,presented,29
+42363,Stimulus,presented,24
+44367,Stimulus,presented,19
+46368,Keyboard,received,None,wait
+46383,Stimulus,presented,30
+52385,Stimulus,presented,24
+54387,Stimulus,presented,23
+56387,Keyboard,received,None,wait
+56400,Stimulus,presented,31
+62401,Experiment,ended

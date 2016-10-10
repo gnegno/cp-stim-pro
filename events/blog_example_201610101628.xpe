@@ -1,0 +1,15 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 16:28:31
+#sha1: 3e728e
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+701,stderr,received,'Traceback (most recent call last):'
+701,stderr,received,'  File "C:/Users/Carmine Gnolo/Desktop/Code/cp-stim-pro/blog_example", line 40, in <module>'
+701,stderr,received,'    print temp_block.design_as_text()'
+701,stderr,received,'  File "C:\\WinPython-64bit-2.7.10.1\\python-2.7.10.amd64\\lib\\site-packages\\expyriment\\design\\_structure.py", line 1356, in design_as_text'
+702,stderr,received,'    rtn = rtn + ",{0}".format(unicode2str(tr.get_factor(f)))'
+702,stderr,received,'  File "C:\\WinPython-64bit-2.7.10.1\\python-2.7.10.amd64\\lib\\site-packages\\expyriment\\misc\\_miscellaneous.py", line 145, in unicode2str'
+702,stderr,received,'    s = u.encode(locale_enc)'
+702,stderr,received,"AttributeError: 'int' object has no attribute 'encode'"

@@ -1,0 +1,59 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 16:30:43
+#sha1: 775bc4
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+723,stdout,received,'Block None: 1\n    block factors: \n    n trials: 4\n    trial IDs = [2, 0, 3, 1]\n    trial factors: correctresponse = [109, 120]\n                   trialtype = [congruent, incongruent]\n                   '
+724,stdout,received,'Block None: 2\n    block factors: \n    n trials: 4\n    trial IDs = [1, 0, 3, 2]\n    trial factors: correctresponse = [109, 120]\n                   trialtype = [congruent, incongruent]\n                   '
+731,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,2,109,incongruent
+#design: 0,0,1,0,120,congruent
+#design: 0,0,2,3,120,incongruent
+#design: 0,0,3,1,109,congruent
+#design: 1,1,0,1,109,congruent
+#design: 1,1,1,0,120,congruent
+#design: 1,1,2,3,120,incongruent
+#design: 1,1,3,2,109,incongruent
+731,design,logged,
+731,Experiment,started
+745,Stimulus,presented,9
+47993,Keyboard,received,32,wait
+47997,Stimulus,presented,8
+49997,Stimulus,presented,2
+51997,Keyboard,received,None,wait
+52012,Stimulus,presented,10
+55014,Stimulus,presented,8
+57015,Stimulus,presented,0
+59154,Keyboard,received,None,wait
+59167,Stimulus,presented,11
+62170,Stimulus,presented,8
+64171,Stimulus,presented,3
+66171,Keyboard,received,None,wait
+66184,Stimulus,presented,12
+69188,Stimulus,presented,8
+71188,Stimulus,presented,1
+73188,Keyboard,received,None,wait
+73202,Stimulus,presented,13
+79204,Stimulus,presented,8
+81207,Stimulus,presented,5
+83207,Keyboard,received,None,wait
+83222,Stimulus,presented,14
+86224,Stimulus,presented,8
+88225,Stimulus,presented,4
+90225,Keyboard,received,None,wait
+90239,Stimulus,presented,15
+93241,Stimulus,presented,8
+95242,Stimulus,presented,7
+97270,Keyboard,received,None,wait
+97283,Stimulus,presented,16
+100285,Stimulus,presented,8
+102286,Stimulus,presented,6
+104286,Keyboard,received,None,wait
+104300,Stimulus,presented,17
+110300,Experiment,ended
+110303,Data,saved

@@ -1,0 +1,15 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 15:37:38
+#sha1: 7ae0ea
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+4568,stderr,received,'Traceback (most recent call last):'
+4568,stderr,received,'  File "C:\\Program Files (x86)\\JetBrains\\PyCharm Community Edition 2016.2.3\\helpers\\pydev\\pydevd.py", line 1580, in <module>'
+4569,stderr,received,"    globals = debugger.run(setup['file'], None, None, is_module)"
+4569,stderr,received,'  File "C:\\Program Files (x86)\\JetBrains\\PyCharm Community Edition 2016.2.3\\helpers\\pydev\\pydevd.py", line 964, in run'
+4570,stderr,received,'    pydev_imports.execfile(file, globals, locals)  # execute the script'
+4570,stderr,received,'  File "C:/Users/Carmine Gnolo/Desktop/Code/cp-stim-pro/blog_example", line 36, in <module>'
+4570,stderr,received,'    temp_trial.set_factor("correctresponse", correctresponse)'
+4570,stderr,received,"NameError: name 'correctresponse' is not defined"

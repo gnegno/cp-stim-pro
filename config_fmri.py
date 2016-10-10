@@ -6,7 +6,9 @@ from expyriment.design.extras import StimulationProtocol
 
 
 # SETTINGS
-NR_REPETITIONS = 2  # For each block
+# For my experiment we have blocks, only trials, and two conditions.
+
+NR_REPETITIONS = 1  # For each block
 REST_DURATION =  3  # In volumes
 STIMULUS_DURATION = 500  # In ms
 TR = 1.0#2.0
@@ -15,25 +17,22 @@ SCAN_TRIGGER = 53
 control.set_develop_mode(True)
 
 # DESIGN
-
-
 exp = design.Experiment("Configural processing") # generating an experiment object, called exp,
 control.initialize(exp)				             # initializing the experiment object (what happens here?)
 protocol = StimulationProtocol("time")           # generating a protocol object (why there is "time" in it?)
 
 fixcross = stimuli.FixCross(colour=misc.constants.C_RED)        # Generating objects for the fixation crosses
-fixcross_G = stimuli.FixCross(colour=misc.constants.C_GREEN)
 
-trials = {"Configuration":[]}       # generate vector called trials - not using xpy yet
-condition = "Configuration"         # name of the condition
+trials = {"Show configuration":[]}       # generate vector called trials - not using xpy yet
+        # name of the condition
+condition = "Configuration"
+
 protocol.add_condition(condition)   # adding a condition to the protocol
-
-
-# Build the sequence of trials for 1 repetition
+# Build the sequence of trials for repetition
 for stim in glob("./img/"+condition.lower()+"_*.jpg"):
     t = design.Trial()          # generate a trial t
     s = stimuli.Picture(stim)   # generate a stimulus s with a picture
-    fixcross.plot(s)            # (what does this do? does it add just a fixation cross to the
+    fixcross.plot(s)            # (what does this do? does it add just a fixation cross?)
     t.add_stimulus(s)           # add the stimulus s to the trial t
     t.preload_stimuli()         # preload the stimulus
     trials[condition].append(t) # add the trial t to the trials for the condition "condition"
@@ -52,7 +51,8 @@ for repetition in range(NR_REPETITIONS):
 # RUN
 control.start() # This line starts the presentation
 
-stimul  i.TextLine("Waiting for trigger...").present() # Wait for the first trigger
+stimuli.TextLine("Waiting for trigger...").present() # Wait for the first trigger
+stimuli.TextLine("Waiting for trigger...").present() # Wait for the first trigger
 exp.keyboard.wait(SCAN_TRIGGER)
 exp.clock.reset_stopwatch() # Time starts here (only first time?)
 

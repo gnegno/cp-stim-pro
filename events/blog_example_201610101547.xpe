@@ -1,0 +1,11 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 15:47:26
+#sha1: ae69c0
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+671,stderr,received,'Traceback (most recent call last):'
+671,stderr,received,'  File "C:/Users/Carmine Gnolo/Desktop/Code/cp-stim-pro/blog_example", line 35, in <module>'
+671,stderr,received,'    print correct_response'
+671,stderr,received,"NameError: name 'correct_response' is not defined"

@@ -1,0 +1,12 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 15:28:49
+#sha1: ca2e91
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+696,Picture,loaded,./img\configuration_1.jpg
+711,stderr,received,'Traceback (most recent call last):'
+711,stderr,received,'  File "C:/Users/Carmine Gnolo/Desktop/Code/cp-stim-pro/config_fmri.py", line 38, in <module>'
+711,stderr,received,'    trials[condition].append(t) # add the trial t to the trials for the condition "condition"'
+711,stderr,received,"KeyError: 'Configuration'"

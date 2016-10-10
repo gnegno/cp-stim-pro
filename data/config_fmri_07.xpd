@@ -1,0 +1,19 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpd-file, coding: cp1252
+#date: Mon Oct 10 2016 09:07:50
+#--EXPERIMENT INFO
+#e mainfile: config_fmri.py
+#e sha1: a9d288
+#e modules: 
+#e Experiment: Configural processing
+#e no between subject factors
+#e Block 0: unnamed
+#e     block factors: Condition = Configuration
+#e     n trials: 5
+#e     trial factors: 
+#e Block 1: unnamed
+#e     block factors: Condition = Configuration
+#e     n trials: 5
+#e     trial factors: 
+#--SUBJECT INFO
+#s id: 7
+subject_id,

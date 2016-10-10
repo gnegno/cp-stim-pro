@@ -1,0 +1,28 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 16:11:03
+#sha1: 238a73
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+10754,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correct_response,trialtype
+#design: 0,0,0,0,120,incongruent
+#design: 1,1,0,0,120,incongruent
+10754,design,logged,
+10754,Experiment,started
+10794,Stimulus,presented,10
+12071,Keyboard,received,32,wait
+12074,Stimulus,presented,8
+14088,Stimulus,presented,3
+16104,Keyboard,received,None,wait
+16143,Stimulus,presented,11
+22156,Stimulus,presented,8
+24171,Stimulus,presented,7
+26188,Keyboard,received,None,wait
+26239,Stimulus,presented,12
+32254,Experiment,ended
+32257,Data,saved
+32259,Stimulus,presented,13

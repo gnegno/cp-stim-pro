@@ -1,0 +1,95 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 16:05:49
+#sha1: 0b58e9
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+686,stdout,received,'<<<<<'
+686,stdout,received,'120'
+687,stdout,received,'>>>>>'
+687,stdout,received,'109'
+687,stdout,received,'<<><<'
+687,stdout,received,'109'
+687,stdout,received,'>><>>'
+687,stdout,received,'120'
+688,stdout,received,'<<<<<'
+688,stdout,received,'120'
+688,stdout,received,'>>>>>'
+688,stdout,received,'109'
+688,stdout,received,'<<><<'
+688,stdout,received,'109'
+689,stdout,received,'>><>>'
+689,stdout,received,'120'
+689,stdout,received,'<<<<<'
+689,stdout,received,'120'
+690,stdout,received,'>>>>>'
+690,stdout,received,'109'
+690,stdout,received,'<<><<'
+690,stdout,received,'109'
+690,stdout,received,'>><>>'
+690,stdout,received,'120'
+691,stdout,received,'<<<<<'
+691,stdout,received,'120'
+691,stdout,received,'>>>>>'
+691,stdout,received,'109'
+691,stdout,received,'<<><<'
+691,stdout,received,'109'
+692,stdout,received,'>><>>'
+692,stdout,received,'120'
+692,stdout,received,'<<<<<'
+692,stdout,received,'120'
+693,stdout,received,'>>>>>'
+693,stdout,received,'109'
+693,stdout,received,'<<><<'
+693,stdout,received,'109'
+693,stdout,received,'>><>>'
+693,stdout,received,'120'
+694,stdout,received,'<<<<<'
+694,stdout,received,'120'
+694,stdout,received,'>>>>>'
+694,stdout,received,'109'
+694,stdout,received,'<<><<'
+694,stdout,received,'109'
+695,stdout,received,'>><>>'
+695,stdout,received,'120'
+701,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correct_response,trialtype
+#design: 0,0,0,0,120,incongruent
+#design: 1,1,0,0,120,incongruent
+#design: 2,2,0,0,120,incongruent
+#design: 3,3,0,0,120,incongruent
+#design: 4,4,0,0,120,incongruent
+#design: 5,5,0,0,120,incongruent
+702,design,logged,
+702,Experiment,started
+716,Stimulus,presented,25
+10043,Keyboard,received,32,wait
+10047,Stimulus,presented,24
+12048,Stimulus,presented,3
+14048,Keyboard,received,None,wait
+14062,Stimulus,presented,26
+20065,Stimulus,presented,24
+22066,Stimulus,presented,7
+24066,Keyboard,received,None,wait
+24082,Stimulus,presented,27
+30084,Stimulus,presented,24
+32085,Stimulus,presented,11
+34085,Keyboard,received,None,wait
+34098,Stimulus,presented,28
+40102,Stimulus,presented,24
+42103,Stimulus,presented,15
+44103,Keyboard,received,None,wait
+44116,Stimulus,presented,29
+50120,Stimulus,presented,24
+52120,Stimulus,presented,19
+54120,Keyboard,received,None,wait
+54135,Stimulus,presented,30
+60139,Stimulus,presented,24
+62139,Stimulus,presented,23
+64139,Keyboard,received,None,wait
+64152,Stimulus,presented,31
+70153,Experiment,ended
+70156,Data,saved

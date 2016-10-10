@@ -1,0 +1,46 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Mon Oct 10 2016 09:07:50
+#sha1: a9d288
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+722,Picture,loaded,./img\configuration_1.jpg
+753,Picture,loaded,./img\configuration_2.jpg
+779,Picture,loaded,./img\configuration_3.jpg
+807,Picture,loaded,./img\configuration_4.jpg
+834,Picture,loaded,./img\configuration_5.jpg
+6651,design,log,
+#design: #exp: Configural processing
+#design: block_cnt,block_id,block_Condition,trial_cnt,trial_id
+#design: 0,0,Configuration,0,3
+#design: 0,0,Configuration,1,1
+#design: 0,0,Configuration,2,2
+#design: 0,0,Configuration,3,4
+#design: 0,0,Configuration,4,0
+#design: 1,1,Configuration,0,2
+#design: 1,1,Configuration,1,3
+#design: 1,1,Configuration,2,0
+#design: 1,1,Configuration,3,1
+#design: 1,1,Configuration,4,4
+6651,design,logged,
+6651,Experiment,started
+6653,Stimulus,presented,7
+6656,Stimulus,presented,8
+8737,Keyboard,received,53,wait
+8737,Stimulus,presented,0
+12084,Keyboard,received,53,wait
+12084,Stimulus,presented,5
+12584,Stimulus,presented,3
+13084,Stimulus,presented,4
+13584,Stimulus,presented,6
+14084,Stimulus,presented,2
+14584,Stimulus,presented,0
+366620,Keyboard,received,53,wait
+366620,Stimulus,presented,4
+367121,Stimulus,presented,5
+367621,Stimulus,presented,2
+368121,Stimulus,presented,3
+368621,Stimulus,presented,6
+369121,Stimulus,presented,0
+371622,Experiment,ended
