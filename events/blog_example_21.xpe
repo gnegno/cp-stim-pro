@@ -1,0 +1,36 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:25:26
+#sha1: 50beb9
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+379,stdout,received,'0'
+381,stdout,received,'1'
+382,stdout,received,'2'
+382,stdout,received,'3'
+384,stdout,received,'0'
+384,stdout,received,'1'
+385,stdout,received,'2'
+385,stdout,received,'3'
+395,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,3,120,incongruent
+#design: 0,0,1,2,109,incongruent
+#design: 0,0,2,1,109,congruent
+#design: 0,0,3,0,120,congruent
+#design: 1,1,0,0,120,congruent
+#design: 1,1,1,3,120,incongruent
+#design: 1,1,2,1,109,congruent
+#design: 1,1,3,2,109,incongruent
+397,design,logged,
+397,Experiment,started
+440,Stimulus,presented,9
+6349,stderr,received,'Traceback (most recent call last):'
+6350,stderr,received,'  File "blog_example.py", line 54, in <module>'
+6350,stderr,received,'    exp.keyboard.wait(misc.constants.K_SPACE)'
+6350,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/io/_keyboard.py", line 283, in wait'
+6350,stderr,received,'    time.sleep(0.0005)'
+6350,stderr,received,'KeyboardInterrupt'

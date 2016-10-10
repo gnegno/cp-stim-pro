@@ -1,0 +1,43 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:22:21
+#sha1: 079663
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+506,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,2,109,incongruent
+#design: 0,0,1,0,120,congruent
+#design: 0,0,2,3,120,incongruent
+#design: 0,0,3,1,109,congruent
+#design: 1,1,0,2,109,incongruent
+#design: 1,1,1,3,120,incongruent
+#design: 1,1,2,1,109,congruent
+#design: 1,1,3,0,120,congruent
+507,design,logged,
+507,Experiment,started
+553,Stimulus,presented,9
+1403,Keyboard,received,32,wait
+1403,stdout,received,'        Trial:   2\n\n        Stimuli: [2]\n        '
+1409,Stimulus,presented,8
+3411,Stimulus,presented,2
+5414,Keyboard,received,None,wait
+5453,Stimulus,presented,10
+8456,stdout,received,'        Trial:   0\n\n        Stimuli: [0]\n        '
+8460,Stimulus,presented,8
+10462,Stimulus,presented,0
+12464,Keyboard,received,None,wait
+12505,Stimulus,presented,11
+15507,stdout,received,'        Trial:   3\n\n        Stimuli: [3]\n        '
+15511,Stimulus,presented,8
+17513,Stimulus,presented,3
+18778,stderr,received,'Traceback (most recent call last):'
+18778,stderr,received,'  File "blog_example.py", line 69, in <module>'
+18778,stderr,received,'    key, rt = exp.keyboard.wait(keys = [misc.constants.K_x, misc.constants.K_m], duration = duration)'
+18778,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/io/_keyboard.py", line 283, in wait'
+18790,stderr,received,'    time.sleep(0.0005)'
+18790,stderr,received,'KeyboardInterrupt'
+18792,Data,saved

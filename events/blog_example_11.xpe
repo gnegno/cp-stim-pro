@@ -1,0 +1,48 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:03:51
+#sha1: 775bc4
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+386,stdout,received,'Block None: 1\n    block factors: \n    n trials: 4\n    trial IDs = [1, 3, 0, 2]\n    trial factors: correctresponse = [109, 120]\n                   trialtype = [congruent, incongruent]\n                   '
+388,stdout,received,'Block None: 2\n    block factors: \n    n trials: 4\n    trial IDs = [0, 1, 3, 2]\n    trial factors: correctresponse = [109, 120]\n                   trialtype = [congruent, incongruent]\n                   '
+397,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,1,109,congruent
+#design: 0,0,1,3,120,incongruent
+#design: 0,0,2,0,120,congruent
+#design: 0,0,3,2,109,incongruent
+#design: 1,1,0,0,120,congruent
+#design: 1,1,1,1,109,congruent
+#design: 1,1,2,3,120,incongruent
+#design: 1,1,3,2,109,incongruent
+401,design,logged,
+401,Experiment,started
+441,Stimulus,presented,9
+2627,Keyboard,received,32,wait
+2631,Stimulus,presented,8
+4632,Stimulus,presented,1
+6635,Keyboard,received,None,wait
+6674,Stimulus,presented,10
+9680,Stimulus,presented,8
+11682,Stimulus,presented,3
+13685,Keyboard,received,None,wait
+13725,Stimulus,presented,11
+16732,Stimulus,presented,8
+18739,Stimulus,presented,0
+20748,Keyboard,received,None,wait
+20789,Stimulus,presented,12
+23796,Stimulus,presented,8
+25797,Stimulus,presented,2
+27799,Keyboard,received,None,wait
+27839,Stimulus,presented,13
+28953,stderr,received,'Traceback (most recent call last):'
+28954,stderr,received,'  File "blog_example.py", line 75, in <module>'
+28954,stderr,received,'    exp.clock.wait(3000)'
+28954,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 136, in wait'
+28954,stderr,received,'    time.sleep((waiting_time - looptime) / 1000)'
+28954,stderr,received,'KeyboardInterrupt'
+28955,Data,saved

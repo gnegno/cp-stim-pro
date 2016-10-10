@@ -1,0 +1,59 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:27:46
+#sha1: aee390
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+420,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,2,109,incongruent
+#design: 0,0,1,1,109,congruent
+#design: 0,0,2,0,120,congruent
+#design: 0,0,3,3,120,incongruent
+#design: 1,1,0,2,109,incongruent
+#design: 1,1,1,1,109,congruent
+#design: 1,1,2,3,120,incongruent
+#design: 1,1,3,0,120,congruent
+421,design,logged,
+422,Experiment,started
+467,Stimulus,presented,9
+1911,Keyboard,received,32,wait
+1911,stdout,received,'        Trial:   2\n\n        Stimuli: [2]\n        '
+1915,Stimulus,presented,8
+3917,Stimulus,presented,2
+5919,Keyboard,received,None,wait
+5960,Stimulus,presented,10
+8963,stdout,received,'        Trial:   1\n\n        Stimuli: [1]\n        '
+8967,Stimulus,presented,8
+10969,Stimulus,presented,1
+12972,Keyboard,received,None,wait
+13014,Stimulus,presented,11
+16016,stdout,received,'        Trial:   0\n\n        Stimuli: [0]\n        '
+16020,Stimulus,presented,8
+18022,Stimulus,presented,0
+20025,Keyboard,received,None,wait
+20064,Stimulus,presented,12
+23066,stdout,received,'        Trial:   3\n\n        Stimuli: [3]\n        '
+23070,Stimulus,presented,8
+25073,Stimulus,presented,3
+27076,Keyboard,received,None,wait
+27116,Stimulus,presented,13
+33118,stdout,received,'        Trial:   2\n\n        Stimuli: [6]\n        '
+33122,Stimulus,presented,8
+35123,Stimulus,presented,6
+37125,Keyboard,received,None,wait
+37168,Stimulus,presented,14
+39364,stderr,received,'Traceback (most recent call last):'
+39364,stderr,received,'  File "blog_example.py", line 82, in <module>'
+39364,stderr,received,'    exp.clock.wait(3000)'
+39364,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 137, in wait'
+39364,stderr,received,'    while (self.time < start + waiting_time):'
+39364,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 70, in time'
+39364,stderr,received,'    return int((get_time() - self.__init_time) * 1000)'
+39364,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_timer.py", line 71, in get_time'
+39365,stderr,received,'    if _clock_gettime(_CLOCK_MONOTONIC, ctypes.pointer(t)) != 0:'
+39365,stderr,received,'KeyboardInterrupt'
+39366,Data,saved

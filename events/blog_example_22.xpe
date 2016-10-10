@@ -1,0 +1,29 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:26:13
+#sha1: b67595
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+419,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,0,120,incongruent
+#design: 1,1,0,0,120,incongruent
+420,design,logged,
+420,Experiment,started
+463,Stimulus,presented,9
+1795,Keyboard,received,32,wait
+1795,stdout,received,'        Trial:   0\n\n        Stimuli: [3]\n        '
+1801,Stimulus,presented,8
+3802,Stimulus,presented,3
+5806,Keyboard,received,None,wait
+5844,Stimulus,presented,10
+11847,stdout,received,'        Trial:   0\n\n        Stimuli: [7]\n        '
+11851,Stimulus,presented,8
+13852,Stimulus,presented,7
+15855,Keyboard,received,None,wait
+15894,Stimulus,presented,11
+21896,Experiment,ended
+21896,Data,saved

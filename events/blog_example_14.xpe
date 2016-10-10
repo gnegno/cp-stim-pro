@@ -1,0 +1,21 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:14:49
+#sha1: b7adbd
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+398,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,0,120,incongruent
+#design: 1,1,0,0,120,incongruent
+398,design,logged,
+398,Experiment,started
+442,Stimulus,presented,9
+1693,Keyboard,received,32,wait
+1693,stderr,received,'Traceback (most recent call last):'
+1693,stderr,received,'  File "blog_example.py", line 56, in <module>'
+1694,stderr,received,'    print block.trials'
+1694,stderr,received,"AttributeError: 'int' object has no attribute 'trials'"

@@ -1,0 +1,51 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:35:14
+#sha1: 2a83c7
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+396,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,2,109,incongruent
+#design: 0,0,1,1,109,congruent
+#design: 0,0,2,3,120,incongruent
+#design: 0,0,3,0,120,congruent
+#design: 1,1,0,0,120,congruent
+#design: 1,1,1,1,109,congruent
+#design: 1,1,2,3,120,incongruent
+#design: 1,1,3,2,109,incongruent
+397,design,logged,
+397,Experiment,started
+443,Stimulus,presented,9
+2751,Keyboard,received,32,wait
+2757,Stimulus,presented,8
+4758,Stimulus,presented,2
+6760,Keyboard,received,None,wait
+6764,Stimulus,presented,8
+8765,Stimulus,presented,1
+10767,Keyboard,received,None,wait
+10771,Stimulus,presented,8
+12772,Stimulus,presented,3
+14774,Keyboard,received,None,wait
+14779,Stimulus,presented,8
+16780,Stimulus,presented,0
+18783,Keyboard,received,None,wait
+18821,Stimulus,presented,10
+21827,Stimulus,presented,8
+23828,Stimulus,presented,4
+25830,Keyboard,received,None,wait
+25834,Stimulus,presented,8
+27836,Stimulus,presented,5
+29838,Keyboard,received,None,wait
+29842,Stimulus,presented,8
+31843,Stimulus,presented,7
+33845,Keyboard,received,None,wait
+33849,Stimulus,presented,8
+35852,Stimulus,presented,6
+37854,Keyboard,received,None,wait
+37894,Stimulus,presented,11
+43896,Experiment,ended
+43896,Data,saved

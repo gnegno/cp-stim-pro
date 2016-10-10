@@ -1,0 +1,21 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:15:15
+#sha1: 4bd333
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+386,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,0,120,incongruent
+#design: 1,1,0,0,120,incongruent
+387,design,logged,
+387,Experiment,started
+431,Stimulus,presented,9
+2241,Keyboard,received,32,wait
+2241,stderr,received,'Traceback (most recent call last):'
+2241,stderr,received,'  File "blog_example.py", line 56, in <module>'
+2241,stderr,received,'    print exp.block[1].trials'
+2241,stderr,received,"AttributeError: 'Experiment' object has no attribute 'block'"

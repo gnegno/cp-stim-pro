@@ -1,0 +1,31 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:17:11
+#sha1: d746bc
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+394,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,0,120,incongruent
+#design: 1,1,0,0,120,incongruent
+394,design,logged,
+394,Experiment,started
+440,Stimulus,presented,9
+1326,Keyboard,received,32,wait
+1326,stdout,received,'Block 0: 1\n    block factors: \n    n trials: 1\n    trial IDs = [0]\n    trial factors: correctresponse = [120]\n                   trialtype = [incongruent]\n                   '
+1326,stdout,received,'        Trial:   0\n\n        Stimuli: [3]\n        '
+1330,Stimulus,presented,8
+3332,Stimulus,presented,3
+5335,Keyboard,received,None,wait
+5373,Stimulus,presented,10
+11375,stdout,received,'Block 1: 2\n    block factors: \n    n trials: 1\n    trial IDs = [0]\n    trial factors: correctresponse = [120]\n                   trialtype = [incongruent]\n                   '
+11375,stdout,received,'        Trial:   0\n\n        Stimuli: [7]\n        '
+11379,Stimulus,presented,8
+13381,Stimulus,presented,7
+15384,Keyboard,received,None,wait
+15423,Stimulus,presented,11
+21425,Experiment,ended
+21425,Data,saved

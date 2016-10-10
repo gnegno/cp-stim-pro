@@ -1,0 +1,64 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:02:44
+#sha1: 775bc4
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1705,stdout,received,'Block None: 1\n    block factors: \n    n trials: 4\n    trial IDs = [1, 3, 2, 0]\n    trial factors: correctresponse = [109, 120]\n                   trialtype = [congruent, incongruent]\n                   '
+1708,stdout,received,'Block None: 2\n    block factors: \n    n trials: 4\n    trial IDs = [0, 3, 1, 2]\n    trial factors: correctresponse = [109, 120]\n                   trialtype = [congruent, incongruent]\n                   '
+1717,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,1,109,congruent
+#design: 0,0,1,3,120,incongruent
+#design: 0,0,2,2,109,incongruent
+#design: 0,0,3,0,120,congruent
+#design: 1,1,0,0,120,congruent
+#design: 1,1,1,3,120,incongruent
+#design: 1,1,2,1,109,congruent
+#design: 1,1,3,2,109,incongruent
+1719,design,logged,
+1719,Experiment,started
+1760,Stimulus,presented,9
+4758,Keyboard,received,32,wait
+4763,Stimulus,presented,8
+6764,Stimulus,presented,1
+8767,Keyboard,received,None,wait
+8805,Stimulus,presented,10
+11811,Stimulus,presented,8
+13813,Stimulus,presented,3
+15816,Keyboard,received,None,wait
+15856,Stimulus,presented,11
+18862,Stimulus,presented,8
+20863,Stimulus,presented,2
+22865,Keyboard,received,None,wait
+22905,Stimulus,presented,12
+25911,Stimulus,presented,8
+27912,Stimulus,presented,0
+29914,Keyboard,received,None,wait
+29955,Stimulus,presented,13
+35962,Stimulus,presented,8
+37964,Stimulus,presented,4
+39966,Keyboard,received,None,wait
+40008,Stimulus,presented,14
+43014,Stimulus,presented,8
+45015,Stimulus,presented,7
+47017,Keyboard,received,None,wait
+47057,Stimulus,presented,15
+50063,Stimulus,presented,8
+52064,Stimulus,presented,5
+54067,Keyboard,received,None,wait
+54107,Stimulus,presented,16
+57113,Stimulus,presented,8
+59114,Stimulus,presented,6
+61117,Keyboard,received,None,wait
+61158,Stimulus,presented,17
+65576,stderr,received,'Traceback (most recent call last):'
+65576,stderr,received,'  File "blog_example.py", line 76, in <module>'
+65576,stderr,received,'    exp.clock.wait(3000)'
+65576,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 136, in wait'
+65577,stderr,received,'    time.sleep((waiting_time - looptime) / 1000)'
+65577,stderr,received,'KeyboardInterrupt'
+65578,Data,saved

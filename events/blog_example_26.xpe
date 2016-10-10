@@ -1,0 +1,32 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Mon Oct 10 2016 18:32:04
+#sha1: 12426f
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+389,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,0,120,incongruent
+#design: 1,1,0,0,120,incongruent
+390,design,logged,
+390,Experiment,started
+435,Stimulus,presented,9
+1308,Keyboard,received,32,wait
+1313,Stimulus,presented,8
+3315,Stimulus,presented,3
+5317,Keyboard,received,None,wait
+5356,Stimulus,presented,10
+11362,Stimulus,presented,8
+13364,Stimulus,presented,7
+15366,Keyboard,received,None,wait
+15406,Stimulus,presented,11
+15826,stderr,received,'Traceback (most recent call last):'
+15826,stderr,received,'  File "blog_example.py", line 82, in <module>'
+15826,stderr,received,'    exp.clock.wait(3000)'
+15827,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/misc/_clock.py", line 136, in wait'
+15827,stderr,received,'    time.sleep((waiting_time - looptime) / 1000)'
+15827,stderr,received,'KeyboardInterrupt'
+15828,Data,saved
