@@ -1,0 +1,15 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 14:00:43
+#sha1: e9aeb3
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2252,stderr,received,'Traceback (most recent call last):'
+2252,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 1580, in <module>'
+2253,stderr,received,"    globals = debugger.run(setup['file'], None, None, is_module)"
+2253,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 964, in run'
+2254,stderr,received,'    pydev_imports.execfile(file, globals, locals)  # execute the script'
+2254,stderr,received,'  File "/home/carmine/Code/cp-stim-pro/fmri_new.py", line 25, in <module>'
+2254,stderr,received,'    fixcross_R.preload()'
+2254,stderr,received,"AttributeError: 'tuple' object has no attribute 'preload'"

@@ -1,0 +1,12 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 14:32:47
+#sha1: d019a0
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+627,Picture,loaded,./img/configuration_1.jpg
+687,Picture,loaded,./img/configuration_3.jpg
+744,Picture,loaded,./img/configuration_4.jpg
+798,Picture,loaded,./img/configuration_2.jpg
+853,Picture,loaded,./img/configuration_5.jpg

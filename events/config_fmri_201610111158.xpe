@@ -1,0 +1,15 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 11:58:29
+#sha1: 0ef069
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+918,stderr,received,'Traceback (most recent call last):'
+919,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 1580, in <module>'
+919,stderr,received,"    globals = debugger.run(setup['file'], None, None, is_module)"
+919,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 964, in run'
+919,stderr,received,'    pydev_imports.execfile(file, globals, locals)  # execute the script'
+919,stderr,received,'  File "/home/carmine/Code/cp-stim-pro/config_fmri.py", line 29, in <module>'
+919,stderr,received,'    for stim in glob("./img/"+condition.lower()+"_*.jpg"):'
+920,stderr,received,"NameError: name 'condition' is not defined"

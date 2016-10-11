@@ -1,83 +1,67 @@
-import os
 from glob import glob
-
 from expyriment import control, design, io, misc, stimuli
-from expyriment.design.extras import StimulationProtocol
+from math import ceil
 
+## SETTINGS ##
 
-# SETTINGS
-# For my experiment we have blocks, only trials, and two conditions.
-
-NR_REPETITIONS = 1  # For each block
-REST_DURATION =  3  # In volumes
-STIMULUS_DURATION = 500  # In ms
-TR = 1.0#2.0
+REST_DURATION = 10000.0  # in ms
+IMAG_DURATION = 5000.0
+TR = 3000.0
 SCAN_TRIGGER = 53
+
+dt = ceil((REST_DURATION + IMAG_DURATION)/TR) - .5 * TR
 
 control.set_develop_mode(True)
 
-# DESIGN
-exp = design.Experiment("Configural processing") # generating an experiment object, called exp,
-control.initialize(exp)				             # initializing the experiment object (what happens here?)
-protocol = StimulationProtocol("time")           # generating a protocol object (why there is "time" in it?)
+## DESIGN ##
+exp = design.Experiment("Configural processing")
+control.initialize(exp)  # What does this do? Why it is needed?
 
-fixcross = stimuli.FixCross(colour=misc.constants.C_RED)        # Generating objects for the fixation crosses
-
-trials = {"Show configuration":[]}       # generate vector called trials - not using xpy yet
-        # name of the condition
 condition = "Configuration"
+trials = {"Configuration": []}  # What kind of structure is this? Is it really needed?
 
-protocol.add_condition(condition)   # adding a condition to the protocol
-# Build the sequence of trials for repetition
-for stim in glob("./img/"+condition.lower()+"_*.jpg"):
-    t = design.Trial()          # generate a trial t
-    s = stimuli.Picture(stim)   # generate a stimulus s with a picture
-    fixcross.plot(s)            # (what does this do? does it add just a fixation cross?)
-    t.add_stimulus(s)           # add the stimulus s to the trial t
-    t.preload_stimuli()         # preload the stimulus
-    trials[condition].append(t) # add the trial t to the trials for the condition "condition"
-fixcross.preload()  # preload the fixation cross
+# Generation and preloading of the fixation crosses
+fixcross_R = stimuli.FixCross(colour=misc.constants.C_RED)
+fixcross_G = stimuli.FixCross(colour=misc.constants.C_GREEN)
+fixcross_R.preload()
+fixcross_G.preload()
 
-# Create a block putting together shuffled repetitions of the trials
-for repetition in range(NR_REPETITIONS):
-    b = design.Block()
-    b.set_factor("Condition", condition)
-    for trial in trials[condition]:
-        b.add_trial(trial)
-    b.shuffle_trials()
-    exp.add_block(b)
+# Generation and preloading of the trials
+for stim in glob("./img/configuration_*.jpg"):
+    t = design.Trial()
+    s = stimuli.Picture(stim)
+
+    # We can put a conditional instruction to change the color of the fixcross randomly
+    fixcross_R.plot(s)
+    t.add_stimulus(s)  # Is it possible to generate a trial with a sequence of stimuli?
+    t.preload_stimuli()
+
+    trials[condition].append(t)  # Here we are still not working with xpy objects
+
+# Loading the trials in a block,shuffling them, adding the block to the experiment
+b = design.Block()
+for trial in trials[condition]:
+    b.add_trial(trial)
+b.shuffle_trials()
+exp.add_block(b)
 
 
-# RUN
-control.start() # This line starts the presentation
+## RUNTIME ##
+control.start()
 
-stimuli.TextLine("Waiting for trigger...").present() # Wait for the first trigger
-stimuli.TextLine("Waiting for trigger...").present() # Wait for the first trigger
+# Waiting for the first trigger
+stimuli.TextLine("Waiting for trigger...").present()
 exp.keyboard.wait(SCAN_TRIGGER)
-exp.clock.reset_stopwatch() # Time starts here (only first time?)
 
-for block in exp.blocks: # Execution of each block
-    exp.clock.wait((REST_DURATION * TR - TR/2) * 1000 - fixcross.present(),
-                   function=exp.keyboard.check)
-    #  This is probably the most important command in the whole script, I will analyze it later.
+exp.clock.reset_stopwatch()  # time = 0, frozen
+start = exp.clock.stopwatch_time  # starting to count time
 
-    exp.keyboard.wait(SCAN_TRIGGER)  # Sync with scanner again
-    start = exp.clock.stopwatch_time
-    for trial in block.trials[:32]: # Why 32? Does this depend on the number of images in the directory?
-        exp.clock.wait(STIMULUS_DURATION - trial.stimuli[0].present())
+for trial in b.trials:
+    fixcross_R.present()
+    exp.clock.wait(REST_DURATION)
+    trial.stimuli[0].present()
+    exp.clock.wait(IMAG_DURATION)
 
-    protocol.add_event(block.get_factor("Condition"), start,
-                       exp.clock.stopwatch_time)
-
-exp.clock.wait((REST_DURATION * TR - TR/2) * 1000 - fixcross.present(),
-               function=exp.keyboard.check)
-# Similar to lines 59-60
-
-
-if not os.path.isdir("protocols"):
-    os.mkdir("protocols")
-protocol.export2brainvoyager(
-        exp.name,
-        "protocols"+os.path.sep+exp.name+"_"+"S"+repr(exp.subject).zfill(2))
+    exp.clock.wait(fixcross_R.present() + dt,function=exp.keyboard.wait(SCAN_TRIGGER))
 
 control.end()

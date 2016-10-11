@@ -58,7 +58,7 @@ for block in exp.blocks:
 
     for trial in block.trials:
 
-	    trial.stimuli[0].preload()
+        trial.stimuli[0].preload()
         fixation_cross.present()
         exp.clock.wait(durations)
         trial.stimuli[0].present()
@@ -78,7 +78,6 @@ for block in exp.blocks:
         exp.data.add([block.name, trial.get_factor('correctresponse'), key, trial.id, rt, acc, trial.get_factor("trialtype")])
 	
     stimuli.TextScreen("Short break",  "That was block: " + block.name + ". \n Next block will soon start",).present()
-
     exp.clock.wait(3000)
 
 control.end(goodbye_text = "Thank you for your contribution!", goodbye_delay=3500)

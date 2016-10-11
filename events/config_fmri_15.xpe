@@ -1,0 +1,34 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 12:17:14
+#sha1: f5b1ac
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+554,Picture,loaded,./img/configuration_1.jpg
+607,Picture,loaded,./img/configuration_3.jpg
+661,Picture,loaded,./img/configuration_4.jpg
+704,Picture,loaded,./img/configuration_2.jpg
+736,Picture,loaded,./img/configuration_5.jpg
+759,stdout,received,"{'Configuration': [<expyriment.design._structure.Trial object at 0x7fddebe865d0>, <expyriment.design._structure.Trial object at 0x7fddebe86c10>, <expyriment.design._structure.Trial object at 0x7fddebe51450>, <expyriment.design._structure.Trial object at 0x7fddebe51510>, <expyriment.design._structure.Trial object at 0x7fddebe51650>]}"
+2009,design,log,
+#design: #exp: Configural processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,2
+#design: 0,0,1,1
+#design: 0,0,2,4
+#design: 0,0,3,3
+#design: 0,0,4,0
+2011,design,logged,
+2011,Experiment,started
+2017,Stimulus,presented,6
+2025,Stimulus,presented,7
+2555,Keyboard,received,53,wait
+2555,stdout,received,'Block 0: unnamed\n    block factors: \n    n trials: 5\n    trial IDs = [2, 1, 4, 3, 0]\n    trial factors: '
+2556,Stimulus,presented,3
+4558,Stimulus,presented,2
+6561,Stimulus,presented,5
+8563,Stimulus,presented,4
+10565,Stimulus,presented,1
+12567,Stimulus,presented,0
+15067,Experiment,ended

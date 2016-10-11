@@ -1,0 +1,19 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 12:16:10
+#sha1: ac8cf9
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+595,stdout,received,"{'Configuration': []}"
+1399,design,log,
+#design: #exp: Configural processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+1400,design,logged,
+1400,Experiment,started
+1404,Stimulus,presented,1
+1413,Stimulus,presented,2
+3921,Keyboard,received,53,wait
+3922,stdout,received,'Block 0: unnamed\n    block factors: \n    n trials: 0\n    trial IDs = []\n    trial factors: '
+3922,Stimulus,presented,0
+6422,Experiment,ended

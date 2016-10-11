@@ -1,0 +1,17 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 12:14:59
+#sha1: dd9fca
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+971,design,log,
+#design: #exp: Configural processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+971,design,logged,
+971,Experiment,started
+976,Stimulus,presented,1
+984,Stimulus,presented,2
+1857,Keyboard,received,53,wait
+1858,Stimulus,presented,0
+4358,Experiment,ended

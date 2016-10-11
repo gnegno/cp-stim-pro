@@ -1,0 +1,34 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 07:43:13
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+384,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,2,109,incongruent
+#design: 0,0,1,1,109,congruent
+#design: 0,0,2,0,120,congruent
+#design: 0,0,3,3,120,incongruent
+384,design,logged,
+384,Experiment,started
+430,Stimulus,presented,5
+1518,Keyboard,received,32,wait
+1522,Stimulus,presented,4
+3525,Stimulus,presented,2
+5528,Keyboard,received,None,wait
+5532,Stimulus,presented,4
+7534,Stimulus,presented,1
+9536,Keyboard,received,None,wait
+9540,Stimulus,presented,4
+11544,Stimulus,presented,0
+13545,Keyboard,received,None,wait
+13550,Stimulus,presented,4
+15552,Stimulus,presented,3
+17554,Keyboard,received,None,wait
+17592,Stimulus,presented,6
+20594,Experiment,ended
+20594,Data,saved

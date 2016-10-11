@@ -1,0 +1,16 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 12:07:40
+#sha1: 9129e8
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+620,Picture,loaded,./img/configuration_1.jpg
+670,stderr,received,'Traceback (most recent call last):'
+670,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 1580, in <module>'
+671,stderr,received,"    globals = debugger.run(setup['file'], None, None, is_module)"
+671,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 964, in run'
+671,stderr,received,'    pydev_imports.execfile(file, globals, locals)  # execute the script'
+671,stderr,received,'  File "/home/carmine/Code/cp-stim-pro/config_fmri.py", line 37, in <module>'
+671,stderr,received,'    trials[condition].append(t) # add the trial t to the trials for the condition "condition"'
+671,stderr,received,"KeyError: 'Show configuraiton'"

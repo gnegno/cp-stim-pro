@@ -1,0 +1,45 @@
+#Expyriment 0.8.0 (Python 2.7.12), .xpe-file, coding: UTF-8
+#date: Tue Oct 11 2016 14:01:39
+#sha1: 9183cd
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Linux', 'GNOLO-T450S', '4.4.0-38-generic', '#57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016', 'x86_64', 'x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1914,Picture,loaded,./img/configuration_1.jpg
+2041,Picture,loaded,./img/configuration_3.jpg
+2134,Picture,loaded,./img/configuration_4.jpg
+2246,Picture,loaded,./img/configuration_2.jpg
+2325,Picture,loaded,./img/configuration_5.jpg
+3330,design,log,
+#design: #exp: Configural processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,1
+#design: 0,0,1,2
+#design: 0,0,2,0
+#design: 0,0,3,3
+#design: 0,0,4,4
+3332,design,logged,
+3333,Experiment,started
+3344,Stimulus,presented,7
+4942,Keyboard,received,53,wait
+4944,Stimulus,presented,0
+14946,Stimulus,presented,3
+19951,Stimulus,presented,0
+19955,Keyboard,received,53,wait
+19959,Stimulus,presented,0
+29961,Stimulus,presented,4
+34966,Stimulus,presented,0
+34971,Keyboard,received,53,wait
+34975,Stimulus,presented,0
+44977,Stimulus,presented,2
+49983,Stimulus,presented,0
+49988,Keyboard,received,53,wait
+49993,Stimulus,presented,0
+59996,Stimulus,presented,5
+65001,Stimulus,presented,0
+81326,Keyboard,received,53,wait
+81328,Stimulus,presented,0
+91330,Stimulus,presented,6
+96351,Stimulus,presented,0
+113788,Keyboard,received,53,wait
+113789,Experiment,ended
