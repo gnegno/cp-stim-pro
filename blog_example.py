@@ -1,7 +1,7 @@
 from expyriment import control, design, io, misc, stimuli
 
 n_trials_block = 4
-n_blocks = 2
+n_blocks = 1 
 durations = 2000
 flanker_stimuli = ["<<<<<", ">>>>>", "<<><<", ">><>>"]
 instructions = "Press the arrow key that matches the arrow in the CENTER -- \
@@ -38,7 +38,7 @@ for block in range(n_blocks):
         temp_trial.set_factor("trialtype", trialtype)
         temp_trial.set_factor("correctresponse", correctresponse)
 
-    	temp_block.add_trial(temp_trial)
+        temp_block.add_trial(temp_trial)
 	
     temp_block.shuffle_trials()
     exp.add_block(temp_block)
@@ -58,7 +58,7 @@ for block in exp.blocks:
 
     for trial in block.trials:
 
-	trial.stimuli[0].preload()
+	    trial.stimuli[0].preload()
         fixation_cross.present()
         exp.clock.wait(durations)
         trial.stimuli[0].present()
@@ -77,10 +77,9 @@ for block in exp.blocks:
 
         exp.data.add([block.name, trial.get_factor('correctresponse'), key, trial.id, rt, acc, trial.get_factor("trialtype")])
 	
-    	stimuli.TextScreen("Short break",  "That was block: " + block.name + ". \n Next block will soon start",).present()
+    stimuli.TextScreen("Short break",  "That was block: " + block.name + ". \n Next block will soon start",).present()
 
     exp.clock.wait(3000)
-exp.clock.wait(3000)
 
 control.end(goodbye_text = "Thank you for your contribution!", goodbye_delay=3500)
 
