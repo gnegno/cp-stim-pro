@@ -1,6 +1,6 @@
 import os
 from glob import glob
-
+from random import sample
 from expyriment import control, design, io, misc, stimuli
 from expyriment.design.extras import StimulationProtocol
 
@@ -26,9 +26,13 @@ fixcross = stimuli.FixCross(colour=misc.constants.C_RED)        # Generating obj
 condition = "Configuration"
 trials = {"Configuration":[]}
 
+
+
+
 for stim in glob("./img/configuration_*.jpg"):
     t = design.Trial()          # generate a trial t
     s = stimuli.Picture(stim)   # generate a stimulus s with a picture
+
     fixcross.plot(s)            # (what does this do? does it add just a fixation cross?)
     t.add_stimulus(s)           # add the stimulus s to the trial t
     t.preload_stimuli()         # preload the stimulus
