@@ -39,8 +39,10 @@ for stim in filenames:
     # We can put a conditional instruction to change the color of the fixcross randomly
     if show_green[stim]:
         fixcross_G.plot(s)
+        t.set_factor("fixcross_color", "G")
     else:
         fixcross_R.plot(s)
+        t.set_factor("fixcross_color", "R")
 
     t.add_stimulus(s)
     t.preload_stimuli()
@@ -54,6 +56,7 @@ for trial in trials[condition]:
 b.shuffle_trials()
 exp.add_block(b)
 
+exp.data_variable_names = ["block", "trial", "RT", "fixcross_color"]
 
 ## RUNTIME ##
 control.start()
@@ -66,9 +69,11 @@ for trial in b.trials:
     t_fcr = fixcross_R.present()
     exp.clock.wait(REST_DURATION - t_fcr)
     t_img = trial.stimuli[0].present()
+    exp.keyboard.check(keys = [misc.constants.K_1, misc.constants.K_2, misc.constants.K_3, misc.constants.K_4,],
+                       duration = IMAG_DURATION)
+    # Check which are the actual keyboard inputs from the button box
+
     exp.clock.wait(IMAG_DURATION - t_img - (.5 * TR))
     exp.keyboard.wait(SCAN_TRIGGER)
-
-## SAVING DATA ##
 
 control.end()
