@@ -4,6 +4,12 @@
 #e mainfile: fmri_new.py
 #e sha1: d019a0
 #e modules: 
+#e Experiment: Configural processing
+#e no between subject factors
+#e Block 0: unnamed
+#e     block factors: 
+#e     n trials: 5
+#e     trial factors: 
 #--SUBJECT INFO
 #s id: 2
 subject_id,

@@ -10,3 +10,43 @@ Time,Type,Event,Value,Detail,Detail2
 744,Picture,loaded,./img/configuration_4.jpg
 798,Picture,loaded,./img/configuration_2.jpg
 853,Picture,loaded,./img/configuration_5.jpg
+1459,design,log,
+#design: #exp: Configural processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,1
+#design: 0,0,1,3
+#design: 0,0,2,4
+#design: 0,0,3,0
+#design: 0,0,4,2
+1462,design,logged,
+1462,Experiment,started
+1473,Stimulus,presented,7
+4622,Keyboard,received,53,wait
+4623,Stimulus,presented,0
+14625,Stimulus,presented,3
+19627,Stimulus,presented,0
+34387,Keyboard,received,53,wait
+34388,Stimulus,presented,0
+44389,Stimulus,presented,5
+49391,Stimulus,presented,0
+49394,Keyboard,received,53,wait
+49397,Stimulus,presented,0
+59397,Stimulus,presented,6
+64399,Stimulus,presented,0
+64402,Keyboard,received,53,wait
+64405,Stimulus,presented,0
+74405,Stimulus,presented,2
+79407,Stimulus,presented,0
+79413,Keyboard,received,53,wait
+79414,Stimulus,presented,0
+89415,Stimulus,presented,4
+94420,Stimulus,presented,0
+395380,stderr,received,'Traceback (most recent call last):'
+395381,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 1580, in <module>'
+395381,stderr,received,"    globals = debugger.run(setup['file'], None, None, is_module)"
+395381,stderr,received,'  File "/usr/lib/pycharm-community/helpers/pydev/pydevd.py", line 964, in run'
+395382,stderr,received,'    pydev_imports.execfile(file, globals, locals)  # execute the script'
+395382,stderr,received,'  File "/home/carmine/Code/cp-stim-pro/fmri_new.py", line 65, in <module>'
+395382,stderr,received,'  File "/usr/local/lib/python2.7/dist-packages/expyriment/io/_keyboard.py", line 283, in wait'
+395397,stderr,received,'    time.sleep(0.0005)'
+395397,stderr,received,'KeyboardInterrupt'

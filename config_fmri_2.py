@@ -60,7 +60,7 @@ for trial in b.trials:
     fixcross_R.present()
     exp.clock.wait(REST_DURATION)
     trial.stimuli[0].present()
-    exp.clock.wait(IMAG_DURATION)
+    # exp.clock.wait(IMAG_DURATION)
 
     exp.clock.wait(fixcross_R.present() + dt,function=exp.keyboard.wait(SCAN_TRIGGER))
 
