@@ -1,0 +1,32 @@
+#Expyriment 0.9.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Wed May 17 2017 17:27:59
+#sha1: 76ad16
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+634,Picture,loaded,./img\configuration_1.jpg
+665,Picture,loaded,./img\configuration_2.jpg
+692,Picture,loaded,./img\configuration_3.jpg
+718,Picture,loaded,./img\configuration_4.jpg
+745,Picture,loaded,./img\configuration_5.jpg
+1850,design,log,
+#design: #exp: Configural processing
+#design: #dvn: block,trial,RT,fixcross_color
+#design: block_cnt,block_id,trial_cnt,trial_id,fixcross_color
+#design: 0,0,0,3,G
+#design: 0,0,1,1,G
+#design: 0,0,2,2,G
+#design: 0,0,3,0,G
+#design: 0,0,4,4,G
+1850,design,logged,
+1850,Experiment,started
+1852,Stimulus,presented,7
+2394,Keyboard,received,53,wait
+2394,Stimulus,presented,0
+12394,Stimulus,presented,5
+12394,Stimulus,presented,0
+12399,stderr,received,'Traceback (most recent call last):'
+12399,stderr,received,'  File ".\\config_fmri.py", line 76, in <module>'
+12400,stderr,received,'    exp.clock.wait(fixcross_R.present() + dt,function=exp.keyboard.wait(SCAN_TRIGGER))'
+12400,stderr,received,"NameError: name 'dt' is not defined"

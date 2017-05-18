@@ -1,0 +1,11 @@
+#Expyriment 0.8.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Wed May 17 2017 16:28:27
+#sha1: 2bd97c
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+593,stderr,received,'Traceback (most recent call last):'
+593,stderr,received,'  File ".\\config_fmri.py", line 40, in <module>'
+594,stderr,received,'    if show_green[stim]:'
+594,stderr,received,'TypeError: list indices must be integers, not str'

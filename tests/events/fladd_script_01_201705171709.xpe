@@ -1,0 +1,19 @@
+#Expyriment 0.9.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Wed May 17 2017 17:09:28
+#sha1: 0a13f3
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+10637,design,log,
+#design: #exp: Objects
+#design: block_cnt,block_id,block_Condition,trial_cnt,trial_id
+10637,design,logged,
+10637,Experiment,started
+10640,Stimulus,presented,2
+12242,Keyboard,received,53,wait
+12242,Stimulus,presented,0
+12255,stderr,received,'Traceback (most recent call last):'
+12255,stderr,received,'  File ".\\fladd_script.py", line 51, in <module>'
+12256,stderr,received,'    function=exp.keyboard.check)'
+12257,stderr,received,"TypeError: wait() got an unexpected keyword argument 'function'"

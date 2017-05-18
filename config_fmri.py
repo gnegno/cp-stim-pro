@@ -6,7 +6,7 @@ from expyriment import control, design, io, misc, stimuli
 
 ## SETTINGS ##
 
-REST_DURATION = 10000.0  # in ms
+REST_DURATION = 100#10000.0  # in ms
 IMAG_DURATION = 5000.0
 TR = 3000.0
 SCAN_TRIGGER = 53
@@ -32,12 +32,13 @@ nr_files  = len(filenames)
 show_green = sample([1] * NR_GREENS + [0] * (nr_files - NR_GREENS), nr_files)
 
 # Generation and pre loading of the trials
+i = 0
 for stim in filenames:
     t = design.Trial()
     s = stimuli.Picture(stim)
 
     # We can put a conditional instruction to change the color of the fixcross randomly
-    if show_green[stim]:
+    if show_green[i]:
         fixcross_G.plot(s)
         t.set_factor("fixcross_color", "G")
     else:
@@ -48,7 +49,8 @@ for stim in filenames:
     t.preload_stimuli()
 
     trials[condition].append(t)  # Here we are still not working with xpy objects
-
+    i = i+1
+	
 # Loading the trials in a block,shuffling them, adding the block to the experiment
 b = design.Block()
 for trial in trials[condition]:
@@ -75,5 +77,5 @@ for trial in b.trials:
 
     exp.clock.wait(IMAG_DURATION - t_img - (.5 * TR))
     exp.keyboard.wait(SCAN_TRIGGER)
-
+	
 control.end()

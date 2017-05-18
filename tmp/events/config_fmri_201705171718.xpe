@@ -1,0 +1,20 @@
+#Expyriment 0.9.0 (Python 2.7.10), .xpe-file, coding: cp1252
+#date: Wed May 17 2017 17:18:39
+#sha1: 76ad16
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'Gnolo', '8', '6.2.9200', 'AMD64', 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+623,Picture,loaded,./img\configuration_1.jpg
+656,Picture,loaded,./img\configuration_2.jpg
+683,Picture,loaded,./img\configuration_3.jpg
+709,Picture,loaded,./img\configuration_4.jpg
+736,Picture,loaded,./img\configuration_5.jpg
+756,stderr,received,'Traceback (most recent call last):'
+756,stderr,received,'  File ".\\config_fmri.py", line 64, in <module>'
+756,stderr,received,'    control.start()'
+757,stderr,received,'  File "C:\\WinPython-64bit-2.7.10.1\\python-2.7.10.amd64\\lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 179, in start'
+757,stderr,received,'    experiment.events.rename(experiment.events.standard_file_name)'
+757,stderr,received,'  File "C:\\WinPython-64bit-2.7.10.1\\python-2.7.10.amd64\\lib\\site-packages\\expyriment\\io\\_files.py", line 308, in rename'
+758,stderr,received,'    os.rename(self._fullpath, new_fullpath)'
+758,stderr,received,'WindowsError: [Error 183] Cannot create a file when that file already exists'

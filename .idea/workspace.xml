@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69fa8d5a-36b7-4ca1-a155-409324c10e34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config_fmri.py" afterPath="$PROJECT_DIR$/config_fmri.py" />
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fmri_new_02.xpd" afterPath="$PROJECT_DIR$/data/fmri_new_02.xpd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/fmri_new_02.xpe" afterPath="$PROJECT_DIR$/events/fmri_new_02.xpe" />
-=======
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
     </list>
     <ignored path="cp-stim-pro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,25 +21,15 @@
     <favorites_list name="cp-stim-pro" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf>
-      <file leaf-file-name="config_fmri.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config_fmri.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="config_fmri.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_fmri.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="289">
               <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
             </state>
           </provider>
         </entry>
@@ -63,25 +47,17 @@
         <option value="$PROJECT_DIR$/blog_example" />
         <option value="$PROJECT_DIR$/blog_example.py" />
         <option value="$PROJECT_DIR$/fmri_new.py" />
-<<<<<<< HEAD
-=======
         <option value="$PROJECT_DIR$/tests/fmri_from_fladd.py" />
         <option value="$PROJECT_DIR$/tests/fladd_script.py" />
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
         <option value="$PROJECT_DIR$/config_fmri.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="y" value="52" />
-    <option name="width" value="960" />
-    <option name="height" value="1028" />
-=======
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -324,13 +300,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="0" y="52" width="960" height="1028" extended-state="5" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
-=======
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -348,11 +319,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32617587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32617587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -390,9 +357,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/blog_example.py" />
-=======
     <entry file="file://$PROJECT_DIR$/config_fmri.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -403,7 +367,26 @@
         </state>
       </provider>
     </entry>
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
+    <entry file="file://$PROJECT_DIR$/config_fmri.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_fmri.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config_fmri.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -436,8 +419,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -445,18 +426,12 @@
         </state>
       </provider>
     </entry>
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
     <entry file="file://$PROJECT_DIR$/playground" />
     <entry file="file://$PROJECT_DIR$/blog_example" />
     <entry file="file://$PROJECT_DIR$/fladd_script.py" />
     <entry file="file://$PROJECT_DIR$/blog_example.py" />
     <entry file="file://$PROJECT_DIR$/fmri_new.py" />
     <entry file="file://$PROJECT_DIR$/tests/fmri_from_fladd.py">
-<<<<<<< HEAD
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
@@ -467,26 +442,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config_fmri.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="435">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-=======
-        <state relative-caret-position="147">
+        <state relative-caret-position="289">
           <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
->>>>>>> f319a6367322a0ceebbd6cdf9d5783eeb08dfe09
         </state>
       </provider>
     </entry>
