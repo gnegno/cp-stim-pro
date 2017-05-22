@@ -1,0 +1,31 @@
+#Expyriment 0.9.0 (Python 2.7.13), .xpe-file, coding: cp1252
+#date: Thu May 18 2017 07:32:49
+#sha1: 82b1d3
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'DESKTOP-FCAKKTE', '10', '10.0.14393', 'AMD64', 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+518,Picture,loaded,./img\configuration_1.jpg
+572,Picture,loaded,./img\configuration_2.jpg
+623,Picture,loaded,./img\configuration_3.jpg
+674,Picture,loaded,./img\configuration_4.jpg
+725,Picture,loaded,./img\configuration_5.jpg
+898,design,log,
+#design: #exp: Configural processing
+#design: #dvn: block,trial,RT,fixcross_color
+#design: block_cnt,block_id,trial_cnt,trial_id,fixcross_color
+#design: 0,0,0,2,G
+#design: 0,0,1,0,G
+#design: 0,0,2,3,G
+#design: 0,0,3,4,G
+#design: 0,0,4,1,G
+898,design,logged,
+898,Experiment,started
+900,Stimulus,presented,7
+2028,Keyboard,received,53,wait
+2028,Stimulus,presented,0
+3029,Stimulus,presented,4
+3030,stderr,received,'Traceback (most recent call last):'
+3031,stderr,received,'  File ".\\config_fmri.py", line 75, in <module>'
+3032,stderr,received,'    duration = IMAG_DURATION)'
+3032,stderr,received,"TypeError: check() got an unexpected keyword argument 'duration'"

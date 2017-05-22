@@ -1,0 +1,11 @@
+#Expyriment 0.9.0 (Python 2.7.13), .xpe-file, coding: cp1252
+#date: Thu May 18 2017 07:31:59
+#sha1: a3540e
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: ('Windows', 'DESKTOP-FCAKKTE', '10', '10.0.14393', 'AMD64', 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+461,stderr,received,'Traceback (most recent call last):'
+461,stderr,received,'  File ".\\config_fmri.py", line 41, in <module>'
+462,stderr,received,'    if show_green[i]:'
+463,stderr,received,"NameError: name 'i' is not defined"

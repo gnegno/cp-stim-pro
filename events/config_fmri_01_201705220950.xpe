@@ -1,0 +1,107 @@
+#Expyriment 0.9.0 (Python 2.7.13), .xpe-file, coding: cp1252
+#date: Mon May 22 2017 09:50:56
+#sha1: 860ed1
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: ('Windows', 'DESKTOP-FCAKKTE', '10', '10.0.14393', 'AMD64', 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+3746,Picture,loaded,./img\face_001.png
+3777,Picture,loaded,./img\face_002.png
+3807,Picture,loaded,./img\face_003.png
+3837,Picture,loaded,./img\face_004.png
+3867,Picture,loaded,./img\face_005.png
+3897,Picture,loaded,./img\face_006.png
+3928,Picture,loaded,./img\face_007.png
+3958,Picture,loaded,./img\face_008.png
+3988,Picture,loaded,./img\face_009.png
+4019,Picture,loaded,./img\face_010.png
+4049,Picture,loaded,./img\face_011.png
+4078,Picture,loaded,./img\face_012.png
+4109,Picture,loaded,./img\face_013.png
+4140,Picture,loaded,./img\face_015.png
+4171,Picture,loaded,./img\face_016.png
+4200,Picture,loaded,./img\face_017.png
+4232,Picture,loaded,./img\face_018.png
+4263,Picture,loaded,./img\face_020.png
+11052,design,log,
+#design: #exp: Configural processing
+#design: #dvn: block,trial,RT,fixcross_color
+#design: block_cnt,block_id,trial_cnt,trial_id,fixcross_color
+#design: 0,0,0,5,G
+#design: 0,0,1,11,R
+#design: 0,0,2,0,R
+#design: 0,0,3,14,R
+#design: 0,0,4,8,R
+#design: 0,0,5,15,R
+#design: 0,0,6,10,R
+#design: 0,0,7,3,R
+#design: 0,0,8,9,G
+#design: 0,0,9,6,R
+#design: 0,0,10,4,R
+#design: 0,0,11,7,G
+#design: 0,0,12,16,R
+#design: 0,0,13,12,R
+#design: 0,0,14,2,R
+#design: 0,0,15,17,G
+#design: 0,0,16,1,G
+#design: 0,0,17,13,R
+11053,design,logged,
+11053,Experiment,started
+11057,Stimulus,presented,21
+12231,Keyboard,received,53,wait
+12231,Stimulus,presented,0
+13231,Stimulus,presented,7
+17829,Keyboard,received,53,wait
+17829,Stimulus,presented,0
+18830,Stimulus,presented,13
+23007,Keyboard,received,53,wait
+23007,Stimulus,presented,0
+24007,Stimulus,presented,2
+28015,Keyboard,received,53,wait
+28015,Stimulus,presented,0
+29015,Stimulus,presented,16
+32974,Keyboard,received,53,wait
+32974,Stimulus,presented,0
+33975,Stimulus,presented,10
+37798,Keyboard,received,53,wait
+37798,Stimulus,presented,0
+38798,Stimulus,presented,17
+42717,Keyboard,received,53,wait
+42717,Stimulus,presented,0
+43717,Stimulus,presented,12
+47340,Keyboard,received,53,wait
+47340,Stimulus,presented,0
+48340,Stimulus,presented,5
+52067,Keyboard,received,53,wait
+52068,Stimulus,presented,0
+53068,Stimulus,presented,11
+56587,Keyboard,received,53,wait
+56588,Stimulus,presented,0
+57588,Stimulus,presented,8
+61107,Keyboard,received,53,wait
+61108,Stimulus,presented,0
+62108,Stimulus,presented,6
+65822,Keyboard,received,53,wait
+65823,Stimulus,presented,0
+66823,Stimulus,presented,9
+71924,Keyboard,received,53,wait
+71924,Stimulus,presented,0
+72925,Stimulus,presented,18
+76565,Keyboard,received,53,wait
+76565,Stimulus,presented,0
+77565,Stimulus,presented,14
+84993,Keyboard,received,53,wait
+84993,Stimulus,presented,0
+85993,Stimulus,presented,4
+89621,Keyboard,received,53,wait
+89622,Stimulus,presented,0
+90622,Stimulus,presented,19
+94230,Keyboard,received,53,wait
+94231,Stimulus,presented,0
+95231,Stimulus,presented,3
+98789,Keyboard,received,53,wait
+98789,Stimulus,presented,0
+99789,Stimulus,presented,15
+104566,Keyboard,received,53,wait
+104566,Experiment,ended
+104580,Stimulus,presented,22

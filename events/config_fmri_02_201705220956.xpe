@@ -1,0 +1,32 @@
+#Expyriment 0.9.0 (Python 2.7.13), .xpe-file, coding: cp1252
+#date: Mon May 22 2017 09:56:31
+#sha1: 860ed1
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: ('Windows', 'DESKTOP-FCAKKTE', '10', '10.0.14393', 'AMD64', 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+3738,Picture,loaded,./img\face_001.png
+3767,Picture,loaded,./img\face_002.png
+3794,Picture,loaded,./img\face_003.png
+11699,design,log,
+#design: #exp: Configural processing
+#design: #dvn: block,trial,RT,fixcross_color
+#design: block_cnt,block_id,trial_cnt,trial_id,fixcross_color
+#design: 0,0,0,2,G
+#design: 0,0,1,0,G
+#design: 0,0,2,1,G
+11699,design,logged,
+11699,Experiment,started
+11703,Stimulus,presented,6
+12685,Keyboard,received,53,wait
+12686,Stimulus,presented,0
+13686,Stimulus,presented,4
+17618,Keyboard,received,53,wait
+17618,Stimulus,presented,0
+18619,Stimulus,presented,2
+22550,Keyboard,received,53,wait
+22551,Stimulus,presented,0
+23551,Stimulus,presented,3
+27302,Keyboard,received,53,wait
+27303,Experiment,ended
+27317,Stimulus,presented,7
